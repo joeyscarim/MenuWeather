@@ -17,12 +17,12 @@
 
 /* Begin PBXFileReference section */
 		D49B9CBA2039033E00E48765 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
-		D4B4CD2B2035F965005A818D /* QuickWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4B4CD2B2035F965005A818D /* MenuWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenuWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4B4CD2E2035F965005A818D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4B4CD302035F965005A818D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4B4CD332035F965005A818D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		D4B4CD352035F965005A818D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D4B4CD362035F965005A818D /* QuickWeather.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QuickWeather.entitlements; sourceTree = "<group>"; };
+		D4B4CD362035F965005A818D /* MenuWeather.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MenuWeather.entitlements; sourceTree = "<group>"; };
 		D4B4CD3C2035FD8D005A818D /* StatusMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
 		D4B4CD3E20360017005A818D /* WeatherAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -41,7 +41,7 @@
 		D4B4CD222035F964005A818D = {
 			isa = PBXGroup;
 			children = (
-				D4B4CD2D2035F965005A818D /* QuickWeather */,
+				D4B4CD2D2035F965005A818D /* MenuWeather */,
 				D4B4CD2C2035F965005A818D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,12 +49,12 @@
 		D4B4CD2C2035F965005A818D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D4B4CD2B2035F965005A818D /* QuickWeather.app */,
+				D4B4CD2B2035F965005A818D /* MenuWeather.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D4B4CD2D2035F965005A818D /* QuickWeather */ = {
+		D4B4CD2D2035F965005A818D /* MenuWeather */ = {
 			isa = PBXGroup;
 			children = (
 				D4B4CD2E2035F965005A818D /* AppDelegate.swift */,
@@ -64,17 +64,17 @@
 				D49B9CBA2039033E00E48765 /* WeatherView.swift */,
 				D4B4CD3E20360017005A818D /* WeatherAPI.swift */,
 				D4B4CD352035F965005A818D /* Info.plist */,
-				D4B4CD362035F965005A818D /* QuickWeather.entitlements */,
+				D4B4CD362035F965005A818D /* MenuWeather.entitlements */,
 			);
-			path = QuickWeather;
+			path = MenuWeather;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D4B4CD2A2035F964005A818D /* QuickWeather */ = {
+		D4B4CD2A2035F964005A818D /* MenuWeather */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D4B4CD392035F965005A818D /* Build configuration list for PBXNativeTarget "QuickWeather" */;
+			buildConfigurationList = D4B4CD392035F965005A818D /* Build configuration list for PBXNativeTarget "MenuWeather" */;
 			buildPhases = (
 				D4B4CD272035F964005A818D /* Sources */,
 				D4B4CD282035F964005A818D /* Frameworks */,
@@ -84,9 +84,9 @@
 			);
 			dependencies = (
 			);
-			name = QuickWeather;
+			name = MenuWeather;
 			productName = QuickWeather;
-			productReference = D4B4CD2B2035F965005A818D /* QuickWeather.app */;
+			productReference = D4B4CD2B2035F965005A818D /* MenuWeather.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D4B4CD262035F964005A818D /* Build configuration list for PBXProject "QuickWeather" */;
+			buildConfigurationList = D4B4CD262035F964005A818D /* Build configuration list for PBXProject "MenuWeather" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D4B4CD2A2035F964005A818D /* QuickWeather */,
+				D4B4CD2A2035F964005A818D /* MenuWeather */,
 			);
 		};
 /* End PBXProject section */
@@ -271,13 +271,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = QuickWeather/QuickWeather.entitlements;
+				CODE_SIGN_ENTITLEMENTS = MenuWeather/MenuWeather.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 83RL5B9CGL;
-				INFOPLIST_FILE = QuickWeather/Info.plist;
+				INFOPLIST_FILE = MenuWeather/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.joeyscarim.QuickWeather;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joeyscarim.MenuWeather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -287,13 +287,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = QuickWeather/QuickWeather.entitlements;
+				CODE_SIGN_ENTITLEMENTS = MenuWeather/MenuWeather.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 83RL5B9CGL;
-				INFOPLIST_FILE = QuickWeather/Info.plist;
+				INFOPLIST_FILE = MenuWeather/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.joeyscarim.QuickWeather;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joeyscarim.MenuWeather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -302,7 +302,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D4B4CD262035F964005A818D /* Build configuration list for PBXProject "QuickWeather" */ = {
+		D4B4CD262035F964005A818D /* Build configuration list for PBXProject "MenuWeather" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D4B4CD372035F965005A818D /* Debug */,
@@ -311,7 +311,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D4B4CD392035F965005A818D /* Build configuration list for PBXNativeTarget "QuickWeather" */ = {
+		D4B4CD392035F965005A818D /* Build configuration list for PBXNativeTarget "MenuWeather" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D4B4CD3A2035F965005A818D /* Debug */,
